@@ -7,25 +7,25 @@ import { ProjectsComponent } from './projects/projects.component';
 
 const routes: Routes = [
   {
-    path:'',
+    path: '',
     component: LandingComponent,
   },
   {
-    path:'landing',
+    path: 'landing',
     component: LandingComponent,
   },
   {
-    path:'projects',
+    path: 'projects',
     component: ProjectsComponent,
   },
   {
-    path:'contact',
+    path: 'contact',
     component: ContactComponent,
   },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), RouterModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
