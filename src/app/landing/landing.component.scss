@@ -1,0 +1,32 @@
+.div-intro {
+  padding-top: 55px;
+  margin-left: 120px;
+  width: 500px;
+  height: auto;
+  border: aqua;
+}
+
+.div-text {
+  color: #fdc844;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.div-text-large {
+  font-size: 64px;
+  margin-top: 12px;
+}
+
+.div-secondary-large {
+  font-size: 24px;
+  color: #828282;
+  margin-top: 32px;
+}
+
+.div-button-row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 32px;
+  height: 50px;
+  width: 224px;
+}
