@@ -10,13 +10,7 @@ export class LandingComponent {
 
   constructor(private router: Router) { }
 
-  navigate(arg: string) {
-    alert(arg)
-    if (arg === 'linkedIn') {
-
-    } else if (arg === "projects") {
-
-    }
+  navigate() {
+    window.open("https://www.linkedin.com/in/harish-r-n-71a0a660/", "_blank");
   }
-
 }

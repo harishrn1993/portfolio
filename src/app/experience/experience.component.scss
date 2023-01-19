@@ -1,0 +1,47 @@
+.title-text {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 4px;
+}
+
+.bottom-bar {
+  width: 100px;
+  height: 4px;
+  background-color: #fdc534;
+  align-self: center;
+}
+
+.div-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.large-card-list {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 32px;
+}
+
+.grid-wrapper {
+  display: grid;
+  margin-top: 32px;
+  grid-template-columns: 150px 150px 150px 150px;
+  display: grid;
+  justify-items: stretch;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.grid-box {
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  font-size: 150%;
+}

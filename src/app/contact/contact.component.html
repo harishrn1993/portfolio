@@ -1,1 +1,28 @@
-<p>contact works!</p>
+<div class="div-parent div-center-parent">
+  <div class="div-center">
+    <label>Name</label>
+    <input [(ngModel)]="name" />
+    <div class="div-margin"></div>
+    <label>To email</label>
+    <input [(ngModel)]="email" disabled="true" />
+    <div class="div-margin"></div>
+    <label>Message</label>
+    <textarea [(ngModel)]="message"></textarea>
+    <div class="div-margin"></div>
+    <button class="primary-button right-content" (click)="onSendClick()">
+      Send
+    </button>
+    <div class="div-margin"></div>
+    <div class="div-flex-row">
+      <button class="img-button" (click)="navigateToInstagram()">
+        <img src="/assets/instagram.png" />
+      </button>
+      <button class="img-button" (click)="navigateToLinkedIn()">
+        <img src="/assets/linkedin.png" />
+      </button>
+      <button class="img-button" (click)="navigateToMail()">
+        <img src="/assets/mail.png" />
+      </button>
+    </div>
+  </div>
+</div>
