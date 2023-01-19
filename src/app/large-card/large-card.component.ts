@@ -16,7 +16,7 @@ export class LargeCardComponent {
   company: string | undefined;
 
   @Input()
-  image: string | undefined;// = "/assets/image-with-yellow-bg.png";
+  image: string | undefined;// = "assets/image-with-yellow-bg.png";
 
   @Input()
   flip: boolean = false;

@@ -12,7 +12,7 @@ export class ExperienceComponent {
     description: `Designed and developed a ReactJS Application that is used by both end
     users and banks`,
     company: "Nagarro",
-    image: "/assets/reactjs-og.png"
+    image: "assets/reactjs-og.png"
   },
   {
     title: "Connected Display",
@@ -20,14 +20,14 @@ export class ExperienceComponent {
     Application that controls all the content that is shown in multiple edge
     android devices for that particular product.`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/mern.jpg"
+    image: "assets/mern.jpg"
   },
   {
     title: "MirrorFit",
     description: `Designed and developed a MERN stack Application where you can buy and subscribe to different trainers/fitness
     training sessions`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/mern.jpg"
+    image: "assets/mern.jpg"
   },
   {
     title: "TextValidator",
@@ -35,7 +35,7 @@ export class ExperienceComponent {
     communicate with the android application to test whether the particular
     translation text is valid or not.`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/mern.jpg"
+    image: "assets/mern.jpg"
   },
   {
     title: "Whirlpool Jennair Oven",
@@ -43,7 +43,7 @@ export class ExperienceComponent {
     Whirlpool Oven which is part of their high-end portfolio. It is also based
     on the above-mentioned architecture`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/android.jpg"
+    image: "assets/android.jpg"
   },
   {
     title: "Whirlpool CES Oven",
@@ -51,7 +51,7 @@ export class ExperienceComponent {
     Whirlpool Oven which was showcased in CES. It is based on the
     above-mentioned architecture.`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/android.jpg"
+    image: "assets/android.jpg"
   },
   {
     title: "Whirlpool Android HMI Architecture",
@@ -59,7 +59,7 @@ export class ExperienceComponent {
     successful in developing an Android Architecture framework on top of the
     Android layer.`,
     company: "Robert Bosch (RBEI)",
-    image: "/assets/android.jpg"
+    image: "assets/android.jpg"
   }
   ]
 
