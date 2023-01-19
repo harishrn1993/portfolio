@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:prod": "ng build --configuration production --base-href https://harishrn1993.github.io/portfolio/",
+    "build:prod": "ng build --configuration production --base-href https://harishrn1993.github.io/portfolio/ --deploy-url=https://harishrn1993.github.io/portfolio/",
     "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },
   "private": true,
