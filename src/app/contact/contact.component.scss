@@ -9,11 +9,13 @@
   align-items: stretch;
   padding-left: 32px;
   padding-right: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
-.div-center-parent {
-  display: flex;
-}
+// .div-center-parent {
+//   display: flex;
+// }
 
 .div-flex-row {
   width: 300px;
@@ -61,4 +63,11 @@ label {
 
 .right-content {
   margin-left: auto;
+}
+
+@media (max-width: 600px) {
+  .div-center {
+    width: 400px;
+    height: 600px;
+  }
 }
