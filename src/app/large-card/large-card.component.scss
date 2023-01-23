@@ -63,3 +63,46 @@ img {
   border-radius: inherit;
   object-fit: cover;
 }
+
+@media (max-width: 600px) {
+  .right-panel {
+    display: none;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .card-parent {
+    width: 90vw;
+    height: 200px;
+    // margin-left: 1rem;
+    // margin-right: 1rem;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: gray;
+  }
+
+  .left-panel {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+  }
+
+  .primary-text {
+    margin-bottom: 8px;
+    font-size: 32px;
+  }
+
+  .secondary-text {
+    margin-bottom: 8px;
+    font-size: 12px;
+  }
+
+  .div-parent div{
+    display: flex;
+    align-items: center;
+  }
+}

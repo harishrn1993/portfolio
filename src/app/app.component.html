@@ -2,22 +2,35 @@
   <a routerLink="/" style="all: unset">
     <h3>H18</h3>
   </a>
+  <a class="toggle-button" (click)="toggleButtonClicked()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
   <nav>
-    <a href="assets/harish_cv.pdf" download="harish_cv.pdf" target="_blank"
-      >Download Resume</a
-    >
-    <a
-      routerLink="/experience"
-      routerLinkActive="active"
-      activeCurrentWhenActive="page"
-      >Experience</a
-    >
-    <a
-      routerLink="/contact"
-      routerLinkActive="active"
-      activeCurrentWhenActive="page"
-      >Contact</a
-    >
+    <ul class="nav-bar-list" #navBarList (click)="onNavListSelected()">
+      <li>
+        <a href="assets/harish_cv.pdf" download="harish_cv.pdf" target="_blank"
+          >Download Resume</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/experience"
+          routerLinkActive="active"
+          activeCurrentWhenActive="page"
+          >Experience</a
+        >
+      </li>
+      <li>
+        <a
+          routerLink="/contact"
+          routerLinkActive="active"
+          activeCurrentWhenActive="page"
+          >Contact</a
+        >
+      </li>
+    </ul>
   </nav>
 </div>
 

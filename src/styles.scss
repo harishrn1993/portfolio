@@ -1,63 +1,34 @@
-.nav-bar {
-  display: flex;
-  height: 56px;
-  width: auto;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: 120px;
-  margin-right: 120px;
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-  all: unset;
   height: 100%;
   overflow-y: overlay;
 }
 body {
-  all: unset;
   background-color: #f9f8fe;
 }
 
-.nav-bar h3 {
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 8px;
-}
-
-nav a {
-  all: unset;
-  margin-left: 16px;
-  margin-right: 16px;
-  font-size: 1rem;
-  padding: 16px;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 4px;
-}
-
-nav a.active {
-  color: blacks;
-  border-bottom: 3px solid #fdc844;
-}
-
 .div-parent {
-  width: 100%;
+  width: 100vw;
   height: calc(100vh - 56px);
 }
 
 .primary-button {
-  width: fit-content;
+  width: auto;
   height: 50px;
   color: black;
   background-color: #fdc844;
   border-radius: 8px;
-  margin-right: 8px;
   border-width: 0px;
   font-size: 18px;
   font-weight: 500;
   padding-left: 24px;
   padding-right: 24px;
+
   cursor: pointer;
 }
 
