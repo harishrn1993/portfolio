@@ -67,7 +67,9 @@ label {
 
 @media (max-width: 600px) {
   .div-center {
-    width: 400px;
+    width: 90vw;
     height: 600px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

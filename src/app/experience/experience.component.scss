@@ -52,6 +52,11 @@ div{
 
 @media (max-width:600px){
   .grid-wrapper{
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 30vw 30vw;
+  }
+
+  .grid-box{
+    width: 30vw;
+    height: 30vw;
   }
 }

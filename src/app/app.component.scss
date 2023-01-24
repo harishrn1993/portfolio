@@ -62,9 +62,10 @@ nav ul li a.active {
 
 @media (max-width: 600px) {
   .toggle-button {
-    right: 1rem;
-    top: 0.25rem;
     visibility: visible;
+    right: 0px;
+    top: 0.6rem;
+    margin-right: 8px;
   }
 
   .nav-bar {
@@ -114,7 +115,7 @@ nav ul li a.active {
     z-index: 1;
   }
 
-  nav ul{
+  nav ul {
     box-shadow: 5px 10px #888888;
   }
 
