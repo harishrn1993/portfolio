@@ -4,7 +4,7 @@
   margin-bottom: 40px;
   display: flex;
   border-radius: 24px;
-  background-color: white;
+  background-color: rgba(128, 128, 128, 0.281);
 }
 
 .left-panel {
@@ -81,6 +81,7 @@ img {
     margin-bottom: 20px;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.281);
+    border-radius: 8px;
   }
 
   .left-panel {
@@ -89,6 +90,7 @@ img {
     justify-content: center;
     height: auto;
     width: auto;
+    border-radius: 8px;
   }
 
   .primary-text {
@@ -101,7 +103,7 @@ img {
     font-size: 3.5vw;
   }
 
-  .div-parent div{
+  .div-parent div {
     display: flex;
     align-items: center;
   }

@@ -29,6 +29,8 @@ export class ContactComponent {
       return alert("Enter all values");
     }
     alert("Sending mail");
+    this.name = '';
+    this.message = '';
     this.navigateToMail();
   }
 }
