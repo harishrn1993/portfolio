@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class ExperienceComponent {
 
   cards = [{
+    title: "Fresales CRM",
+    description: `Planning & implementation to migrate an existing EmberJS application to React using typescript.
+    Integrate Redux and Thunk
+    Creating React UI Repository which follows companies design language to decrease development time. Using React, Typescript and Jest
+    `,
+    company: "Freshworks",
+    image: "assets/reactjs-og.png"
+  },{
     title: "Fintech",
     description: `Designed and developed a ReactJS Application that is used by both end
     users and banks`,

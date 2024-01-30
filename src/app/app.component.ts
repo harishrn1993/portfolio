@@ -11,13 +11,10 @@ export class AppComponent {
   @ViewChild('navBarList') navBarList: ElementRef | undefined;
 
   toggleButtonClicked() {
-    console.log(this.navBarList?.nativeElement.classList)
     this.navBarList?.nativeElement.classList.toggle('active')
   }
 
   onNavListSelected() {
     this.navBarList?.nativeElement.classList.toggle('active')
   }
-
-
 }
